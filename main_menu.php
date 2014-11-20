@@ -2,7 +2,7 @@
     <?php for ($j = 0; $j < 5; $j++): ?>
         <!-- Portfolio -->
         <li class="dropdown mega-menu-fullwidth">
-            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="software.php" class="dropdown-toggle">
                 Software
             </a>
             <ul class="dropdown-menu">
