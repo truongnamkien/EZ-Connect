@@ -14,22 +14,22 @@
                                     <div class="col-md-2 equal-height-in">
                                         <ul class="list-unstyled equal-height-list">
                                             <li><h3>#</h3></li>
-                                            <li><a href="#">3D-Coat</a></li>
-                                            <li><a href="#">3DEqualizer</a></li>
-                                            <li><a href="#">3ds Max</a></li>
+                                            <li><a href="sub_software.php">3D-Coat</a></li>
+                                            <li><a href="sub_software.php">3DEqualizer</a></li>
+                                            <li><a href="sub_software.php">3ds Max</a></li>
 
                                             <li><h3>A</h3></li>
-                                            <li><a href="/software/After-Effects-tutorials">After Effects</a></li>
-                                            <li><a href="/software/Arnold-tutorials">Arnold</a></li>
-                                            <li><a href="/software/AutoCAD-tutorials">AutoCAD</a></li>
-                                            <li><a href="/software/axure-tutorials">Axure</a></li>
+                                            <li><a href="sub_software.php">After Effects</a></li>
+                                            <li><a href="sub_software.php">Arnold</a></li>
+                                            <li><a href="sub_software.php">AutoCAD</a></li>
+                                            <li><a href="sub_software.php">Axure</a></li>
 
                                             <li><h3>B</h3></li>
-                                            <li><a href="/software/Backburner-tutorials">Backburner</a></li>
-                                            <li><a href="/software/Behance-tutorials">Behance</a></li>
-                                            <li><a href="/software/Blender-tutorials">Blender</a></li>
-                                            <li><a href="/software/BodyPaint-3D-tutorials">BodyPaint 3D</a></li>
-                                            <li><a href="/software/boujou-tutorials">boujou</a></li>
+                                            <li><a href="sub_software.php">Backburner</a></li>
+                                            <li><a href="sub_software.php">Behance</a></li>
+                                            <li><a href="sub_software.php">Blender</a></li>
+                                            <li><a href="sub_software.php">BodyPaint 3D</a></li>
+                                            <li><a href="sub_software.php">boujou</a></li>
                                         </ul>
                                     </div>
                                 <?php endfor; ?>
@@ -42,7 +42,7 @@
         <!-- Ens Portfolio -->
 
         <li class="dropdown mega-menu-fullwidth">
-            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="software.php" class="dropdown-toggle">
                 3D
             </a>
             <ul class="dropdown-menu">
@@ -53,46 +53,46 @@
                                 <div class="col-md-3 equal-height-in">
                                     <ul class="list-unstyled equal-height-list two-column">
                                         <li class="title"><h3>Default</h3></li>
-                                        <li><a href="/subject/3d-animation-tutorials">Animation</a></li>
-                                        <li><a href="/subject/3d-dynamics-tutorials">Dynamics</a></li>
-                                        <li><a href="/subject/3d-getting-started-tutorials">Getting Started</a></li>
-                                        <li><a href="/subject/3d-lighting-tutorials">Lighting</a></li>
-                                        <li><a href="/subject/3d-modeling-tutorials">Modeling</a></li>
-                                        <li><a href="/subject/3d-rendering-tutorials">Rendering</a></li>
-                                        <li><a href="/subject/3d-rigging-tutorials">Rigging</a></li>
-                                        <li><a href="/subject/3d-scripting-tutorials">Scripting</a></li>
-                                        <li><a href="/subject/3d-sculpting-tutorials">Sculpting</a></li>
-                                        <li><a href="/subject/3d-texturing-tutorials">Texturing</a></li>
+                                        <li><a href="sub_software.php">Animation</a></li>
+                                        <li><a href="sub_software.php">Dynamics</a></li>
+                                        <li><a href="sub_software.php">Getting Started</a></li>
+                                        <li><a href="sub_software.php">Lighting</a></li>
+                                        <li><a href="sub_software.php">Modeling</a></li>
+                                        <li><a href="sub_software.php">Rendering</a></li>
+                                        <li><a href="sub_software.php">Rigging</a></li>
+                                        <li><a href="sub_software.php">Scripting</a></li>
+                                        <li><a href="sub_software.php">Sculpting</a></li>
+                                        <li><a href="sub_software.php">Texturing</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6 equal-height-in">
                                     <ul class="list-unstyled equal-height-list three-column">
                                         <li class="title"><h3>Default</h3></li>
-                                        <li><a href="/subject/3d-animation-tutorials">Animation</a></li>
-                                        <li><a href="/subject/3d-dynamics-tutorials">Dynamics</a></li>
-                                        <li><a href="/subject/3d-getting-started-tutorials">Getting Started</a></li>
-                                        <li><a href="/subject/3d-lighting-tutorials">Lighting</a></li>
-                                        <li><a href="/subject/3d-modeling-tutorials">Modeling</a></li>
-                                        <li><a href="/subject/3d-rendering-tutorials">Rendering</a></li>
-                                        <li><a href="/subject/3d-rigging-tutorials">Rigging</a></li>
-                                        <li><a href="/subject/3d-scripting-tutorials">Scripting</a></li>
-                                        <li><a href="/subject/3d-sculpting-tutorials">Sculpting</a></li>
-                                        <li><a href="/subject/3d-texturing-tutorials">Texturing</a></li>
+                                        <li><a href="sub_software.php">Animation</a></li>
+                                        <li><a href="sub_software.php">Dynamics</a></li>
+                                        <li><a href="sub_software.php">Getting Started</a></li>
+                                        <li><a href="sub_software.php">Lighting</a></li>
+                                        <li><a href="sub_software.php">Modeling</a></li>
+                                        <li><a href="sub_software.php">Rendering</a></li>
+                                        <li><a href="sub_software.php">Rigging</a></li>
+                                        <li><a href="sub_software.php">Scripting</a></li>
+                                        <li><a href="sub_software.php">Sculpting</a></li>
+                                        <li><a href="sub_software.php">Texturing</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3 equal-height-in">
                                     <ul class="list-unstyled equal-height-list two-column">
                                         <li class="title"><h3>Default</h3></li>
-                                        <li><a href="/subject/3d-animation-tutorials">Animation</a></li>
-                                        <li><a href="/subject/3d-dynamics-tutorials">Dynamics</a></li>
-                                        <li><a href="/subject/3d-getting-started-tutorials">Getting Started</a></li>
-                                        <li><a href="/subject/3d-lighting-tutorials">Lighting</a></li>
-                                        <li><a href="/subject/3d-modeling-tutorials">Modeling</a></li>
-                                        <li><a href="/subject/3d-rendering-tutorials">Rendering</a></li>
-                                        <li><a href="/subject/3d-rigging-tutorials">Rigging</a></li>
-                                        <li><a href="/subject/3d-scripting-tutorials">Scripting</a></li>
-                                        <li><a href="/subject/3d-sculpting-tutorials">Sculpting</a></li>
-                                        <li><a href="/subject/3d-texturing-tutorials">Texturing</a></li>
+                                        <li><a href="sub_software.php">Animation</a></li>
+                                        <li><a href="sub_software.php">Dynamics</a></li>
+                                        <li><a href="sub_software.php">Getting Started</a></li>
+                                        <li><a href="sub_software.php">Lighting</a></li>
+                                        <li><a href="sub_software.php">Modeling</a></li>
+                                        <li><a href="sub_software.php">Rendering</a></li>
+                                        <li><a href="sub_software.php">Rigging</a></li>
+                                        <li><a href="sub_software.php">Scripting</a></li>
+                                        <li><a href="sub_software.php">Sculpting</a></li>
+                                        <li><a href="sub_software.php">Texturing</a></li>
                                     </ul>
                                 </div>
                             </div>

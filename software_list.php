@@ -5,26 +5,32 @@
 <ul class="list-inline our-clients" id="effect-2">
     <li>
         <figure>
-            <img src="assets/img/clients2/ea-canada.png" alt="">
-            <div class="img-hover">
-                <h4>Ea Canada</h4>
-            </div>
+            <a href="sub_software.php">
+                <img src="assets/img/clients2/ea-canada.png" alt="">
+                <div class="img-hover">
+                    <h4>Ea Canada</h4>
+                </div>
+            </a>
         </figure>
     </li>    
     <li>
         <figure>
-            <img src="assets/img/clients2/inspiring.png" alt="">
-            <div class="img-hover">
-                <h4>Inspiring</h4>  
-            </div>
+            <a href="sub_software.php">
+                <img src="assets/img/clients2/inspiring.png" alt="">
+                <div class="img-hover">
+                    <h4>Inspiring</h4>  
+                </div>
+            </a>
         </figure>
     </li>    
     <li>
         <figure>
-            <img src="assets/img/clients2/ucweb.png" alt="">  
-            <div class="img-hover">
-                <h4>UcWeb</h4>  
-            </div>
+            <a href="sub_software.php">
+                <img src="assets/img/clients2/ucweb.png" alt="">  
+                <div class="img-hover">
+                    <h4>UcWeb</h4>  
+                </div>
+            </a>
         </figure>
     </li>    
     <li>

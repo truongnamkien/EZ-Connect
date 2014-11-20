@@ -79,7 +79,7 @@
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="fa fa-bars"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php">
                                 <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
                             </a>
                         </div>
@@ -116,7 +116,7 @@
                         <div class="row">
                             <!-- About -->
                             <div class="col-md-3 md-margin-bottom-40">
-                                <a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
+                                <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
                                 <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
                                 <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>    
                             </div><!--/col-md-3-->
