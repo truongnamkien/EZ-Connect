@@ -646,6 +646,22 @@
     	width: 100%;
     }
 
+    .header-v3 .mega-menu .equal-height-list.two-column li {
+    	width: 50%;
+        float:left;
+    }
+    .header-v3 .mega-menu .equal-height-list.three-column li {
+    	width: 33%;
+        float:left;
+    }
+    .header-v3 .mega-menu .equal-height-list.four-column li {
+    	width: 25%;
+        float:left;
+    }
+    .header-v3 .mega-menu .equal-height-list li.title {
+    	width: 100%;
+    }
+
     .header-v3 .mega-menu .equal-height-list li a {
         display: block;
         position: relative;

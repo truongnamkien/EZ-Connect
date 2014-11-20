@@ -39,6 +39,9 @@
 	padding: 30px 0;
 	min-height: 300px;
 }
+.one-page-inner.one-page-banner {
+    height: 600px;
+}
 
 .one-page .one-page-btn {
 	margin-bottom: 15px;

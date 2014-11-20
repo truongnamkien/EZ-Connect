@@ -413,7 +413,7 @@
 ------------------------------------*/
 /*Portfolio Box*/
 .portfolio-box {
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {

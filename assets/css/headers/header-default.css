@@ -585,7 +585,7 @@
 ------------------------------------*/
 /*Header*/
 .header-fixed .header {
-	height: 78px;
+	/*height: 78px;*/
 }
 
 .header-fixed .header.header-fixed-shrink {
