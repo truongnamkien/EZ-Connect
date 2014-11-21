@@ -1,6 +1,6 @@
 <ul class="list-unstyled row portfolio-box">
     <li class="col-sm-4">
-        <a class="thumbnail zoomer" title="Project Title" href="/tutorial.php">
+        <a class="thumbnail zoomer" title="Project Title" href="tutorial_detail.php">
             <img class="full-width img-responsive" src="assets/img/main/21.jpg" alt="">
             <span class="portfolio-box-in">
                 <i class="rounded-x icon-control-play"></i>
@@ -13,7 +13,7 @@
         <small class="project-tag fLeft"><i class="glyphicon glyphicon-plus"></i>10001</small>
     </li>
     <li class="col-sm-4">
-        <a class="thumbnail zoomer" title="Project Title" href="/tutorial.php">
+        <a class="thumbnail zoomer" title="Project Title" href="tutorial_detail.php">
             <img class="full-width img-responsive" src="assets/img/main/22.jpg" alt="">
             <span class="portfolio-box-in">
                 <i class="rounded-x icon-control-play"></i>
@@ -24,7 +24,7 @@
         <small class="project-tag fLeft"><i class="glyphicon glyphicon-plus"></i>10001</small>
     </li>
     <li class="col-sm-4">
-        <a class="thumbnail zoomer" title="Project Title" href="/tutorial.php">
+        <a class="thumbnail zoomer" title="Project Title" href="tutorial_detail.php">
             <img class="full-width img-responsive" src="assets/img/main/23.jpg" alt="">
             <span class="portfolio-box-in">
                 <i class="rounded-x icon-control-play"></i>

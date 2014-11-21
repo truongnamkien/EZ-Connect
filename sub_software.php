@@ -61,7 +61,7 @@
                         <div class="funny-boxes funny-boxes-colored funny-boxes-red">
                             <div class="row">
                                 <div class="col-md-4 funny-boxes-img">
-                                    <h2><a href="#">Blue Box</a></h2>
+                                    <h2><a href="tutorial_detail.php">Blue Box</a></h2>
                                     <ul class="list-unstyled funny-boxes-rating">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -70,7 +70,7 @@
                                         <li><i class="fa fa-star-o"></i></li>
                                     </ul>
                                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
-                                    <a href="#" class="btn-u btn-u-red">read more</a>
+                                    <a href="tutorial_detail.php" class="btn-u btn-u-red">read more</a>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="responsive-video">
@@ -95,7 +95,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>        
@@ -181,7 +181,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -201,7 +201,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                                 <div class="mask">
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                    <a href="portfolio_item.html" class="info">Read More</a>
+                                    <a href="tutorial.php" class="info">Read More</a>
                                 </div>                
                             </div>
                         </div>        
