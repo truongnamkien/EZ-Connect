@@ -39,60 +39,8 @@
 
     <body class="header-fixed">
         <div class="wrapper">
-            <div class="header">
-                <div class="topbar">
-                    <div class="container">
-                        <!-- Topbar Navigation -->
-                        <ul class="loginbar pull-right">
-                            <li>
-                                <i class="fa fa-globe"></i>
-                                <a>Languages</a>
-                                <ul class="languages">
-                                    <li class="active">
-                                        <a href="#">English <i class="fa fa-check"></i></a> 
-                                    </li>
-                                    <li><a href="#">Spanish</a></li>
-                                    <li><a href="#">Russian</a></li>
-                                    <li><a href="#">German</a></li>
-                                </ul>
-                            </li>
-                            <li class="topbar-devider"></li>   
-                            <li><a href="page_faq.html">Help</a></li>  
-                            <li class="topbar-devider"></li>   
-                            <li><a href="page_login.html">Sign Up</a></li>   
-                            <li class="topbar-devider"></li>   
-                            <li><a href="page_login.html">Login</a></li>   
-                        </ul>
-                        <!-- End Topbar Navigation -->
-                    </div>
-                </div>
-            </div>
-
-            <!--=== Header v3 ===-->    
-            <div class="header-v3 header-sticky">
-                <!-- Navbar -->
-                <div class="navbar navbar-default mega-menu" role="navigation">
-                    <div class="container">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="fa fa-bars"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.php">
-                                <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
-                            </a>
-                        </div>
-
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse navbar-responsive-collapse">
-                            <?php include 'main_menu.php'; ?>
-                        </div><!--/navbar-collapse-->
-                    </div>    
-                </div>            
-                <!-- End Navbar -->
-            </div>
-            <!--=== End Header v3 ===-->    
+            <?php include 'top_nav.php'; ?>
+            <?php include 'main_menu.php'; ?>
 
             <!--=== Slider ===-->
             <div class="tp-banner-container">
@@ -279,129 +227,48 @@
                 </div>
             </div>
 
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/3d.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-9">&nbsp;</div>
-                        <div class="col-md-3">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-youtube-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
+            <?php for ($i = 0; $i < 3; $i++): ?>
+                <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/3d.jpg');">
+                    <div class="container content">
+                        <div class="row">
+                            <div class="col-md-9">&nbsp;</div>
+                            <div class="col-md-3">
+                                <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
+                                <button class="btn btn-youtube-inversed rounded">
+                                    <i class="fa fa-bell"></i> YouTube
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/vfx.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-skype-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
-                        </div>
-                        <div class="col-md-8">&nbsp;</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/3d.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-9">&nbsp;</div>
-                        <div class="col-md-3">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-youtube-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
+                <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/vfx.jpg');">
+                    <div class="container content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
+                                <button class="btn btn-skype-inversed rounded">
+                                    <i class="fa fa-bell"></i> YouTube
+                                </button>
+                            </div>
+                            <div class="col-md-8">&nbsp;</div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/vfx.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-skype-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
-                        </div>
-                        <div class="col-md-8">&nbsp;</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/3d.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-9">&nbsp;</div>
-                        <div class="col-md-3">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-youtube-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="one-page-inner one-page-banner" style="background-image: url('http://assets2.digitaltutors.com/images/guest/v2/index/inserts/vfx.jpg');">
-                <div class="container content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
-                            <button class="btn btn-skype-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
-                            </button>
-                        </div>
-                        <div class="col-md-8">&nbsp;</div>
-                    </div>
-                </div>
-            </div>
+            <?php endfor; ?>
 
             <div class="container content">
                 <div class="row margin-top-20 md-margin-bottom-20">
                     <div class="col-md-6">
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
+                        <?php for ($i = 0; $i < 6; $i++): ?>
+                            <div class="col-md-6">
+                                <div class="simple-block">
+                                    <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="simple-block">
-                                <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
-                            </div>
-                        </div>
+                        <?php endfor; ?>
                     </div>
                     <div class="col-md-6">
                         <div class="title-box">
@@ -459,126 +326,7 @@
                 </div>   
             </div>
 
-            <!--=== Footer Version 1 ===-->
-            <div class="footer-v1">
-                <div class="footer">
-                    <div class="container">
-                        <div class="row">
-                            <!-- About -->
-                            <div class="col-md-3 md-margin-bottom-40">
-                                <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>
-                                <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
-                                <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>    
-                            </div><!--/col-md-3-->
-                            <!-- End About -->
-
-                            <!-- Latest -->
-                            <div class="col-md-3 md-margin-bottom-40">
-                                <div class="posts">
-                                    <div class="headline"><h2>Latest Posts</h2></div>
-                                    <ul class="list-unstyled latest-list">
-                                        <li>
-                                            <a href="#">Incredible content</a>
-                                            <small>May 8, 2014</small>
-                                        </li>
-                                        <li>
-                                            <a href="#">Best shoots</a>
-                                            <small>June 23, 2014</small>
-                                        </li>
-                                        <li>
-                                            <a href="#">New Terms and Conditions</a>
-                                            <small>September 15, 2014</small>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div><!--/col-md-3-->  
-                            <!-- End Latest --> 
-
-                            <!-- Link List -->
-                            <div class="col-md-3 md-margin-bottom-40">
-                                <div class="headline"><h2>Useful Links</h2></div>
-                                <ul class="list-unstyled link-list">
-                                    <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
-                                </ul>
-                            </div><!--/col-md-3-->
-                            <!-- End Link List -->                    
-
-                            <!-- Address -->
-                            <div class="col-md-3 map-img md-margin-bottom-40">
-                                <div class="headline"><h2>Contact Us</h2></div>                         
-                                <address class="md-margin-bottom-40">
-                                    25, Lorem Lis Street, Orange <br />
-                                    California, US <br />
-                                    Phone: 800 123 3456 <br />
-                                    Fax: 800 123 3456 <br />
-                                    Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
-                                </address>
-                            </div><!--/col-md-3-->
-                            <!-- End Address -->
-                        </div>
-                    </div> 
-                </div><!--/footer-->
-
-                <div class="copyright">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">                     
-                                <p>
-                                    2014 &copy; All Rights Reserved.
-                                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-                                </p>
-                            </div>
-
-                            <!-- Social Links -->
-                            <div class="col-md-6">
-                                <ul class="footer-socials list-inline">
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
-                                            <i class="fa fa-skype"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
-                                            <i class="fa fa-dribbble"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- End Social Links -->
-                        </div>
-                    </div> 
-                </div><!--/copyright-->
-            </div>     
-            <!--=== End Footer Version 1 ===-->
+            <?php include 'footer.php'; ?>
         </div><!--/wrapper-->
 
         <!-- JS Global Compulsory -->           
@@ -587,9 +335,6 @@
         <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
         <!-- JS Implementing Plugins -->
         <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-        <script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script>
-        <script type="text/javascript" src="assets/plugins/counter/waypoints.min.js"></script>
-        <script type="text/javascript" src="assets/plugins/counter/jquery.counterup.min.js"></script>
         <script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <!-- JS Customization -->
@@ -601,8 +346,6 @@
         <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();
-                App.initCounter();
-                App.initParallaxBg();
                 RevolutionSlider.initRSfullScreenOffset();
             });
         </script>
