@@ -38,8 +38,8 @@
 
     <body class="header-fixed">
         <div class="wrapper">
-            <?php include 'top_nav.php'; ?>
-            <?php include 'main_menu.php'; ?>
+            <?php include 'pagelet/top_nav.php'; ?>
+            <?php include 'pagelet/main_menu.php'; ?>
 
             <div class="bg-grey">
                 <div class="container content job-partners">
@@ -48,15 +48,15 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
 
-                    <?php include 'software_list.php'; ?>
-                    <?php include 'software_list.php'; ?>
-                    <?php include 'software_list.php'; ?>
-                    <?php include 'software_list.php'; ?>
-                    <?php include 'software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
                 </div>
             </div>
 
-            <?php include 'footer.php'; ?>
+            <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
         <!-- JS Global Compulsory -->           

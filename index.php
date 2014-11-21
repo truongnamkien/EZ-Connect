@@ -39,8 +39,8 @@
 
     <body class="header-fixed">
         <div class="wrapper">
-            <?php include 'top_nav.php'; ?>
-            <?php include 'main_menu.php'; ?>
+            <?php include 'pagelet/top_nav.php'; ?>
+            <?php include 'pagelet/main_menu.php'; ?>
 
             <!--=== Slider ===-->
             <div class="tp-banner-container">
@@ -300,7 +300,7 @@
                     <p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
                 </div>
 
-                <?php include 'tutorial_list.php'; ?>
+                <?php include 'pagelet/tutorial_list.php'; ?>
             </div>
 
             <div class="bg-grey">
@@ -310,7 +310,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
 
-                    <?php include 'software_list.php'; ?>
+                    <?php include 'pagelet/software_list.php'; ?>
                 </div>
             </div>
 
@@ -326,7 +326,7 @@
                 </div>   
             </div>
 
-            <?php include 'footer.php'; ?>
+            <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
         <!-- JS Global Compulsory -->           
