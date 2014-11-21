@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
     <head>
         <title>Unify | Welcome...</title>
 
@@ -27,20 +27,23 @@
 
         <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
 
-        <!-- CSS Theme -->    
+        <!-- CSS Theme -->
         <link rel="stylesheet" href="assets/css/theme-colors/default.css">
         <link rel="stylesheet" href="assets/css/plugins/hover-effect/css/custom-hover-effects.css">
         <link rel="stylesheet" href="assets/css/pages/page_job_inner.css">
 
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
-    </head> 
+    </head>
 
-    <body class="header-fixed">
+     <body>
         <div class="wrapper">
-            <?php include 'pagelet/top_nav.php'; ?>
-            <?php include 'pagelet/main_menu.php'; ?>
-
+            <!--=== Header ===-->
+            <div class="header">
+                <?php include 'pagelet/top_nav.php'; ?>
+                <?php include 'pagelet/main_menu.php'; ?>
+            </div>
+            <!--=== End Header ===-->
 
             <div class="breadcrumbs">
                 <div class="container">
@@ -76,7 +79,7 @@
                                         <iframe src="http://player.vimeo.com/video/47911018" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,8 +89,8 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
                 </div>
 
-                <div class="container content portfolio-4-columns">   
-                    <div class="row"> 
+                <div class="container content portfolio-4-columns">
+                    <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="view view-tenth">
                                 <img class="img-responsive" src="assets/img/main/1.jpg" alt="">
@@ -95,7 +98,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -105,7 +108,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -115,7 +118,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -125,12 +128,12 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                     </div><!--/row-->
 
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="view view-tenth">
                                 <img class="img-responsive" src="assets/img/main/3.jpg" alt="">
@@ -138,7 +141,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -148,7 +151,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -158,7 +161,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -168,12 +171,12 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
-                        </div>        
+                        </div>
                     </div><!--/row-->
 
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="view view-tenth">
                                 <img class="img-responsive" src="assets/img/main/9.jpg" alt="">
@@ -181,7 +184,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -191,7 +194,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -201,7 +204,7 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -211,9 +214,9 @@
                                     <h2>Portfolio Item</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                                     <a href="tutorial.php" class="info">Read More</a>
-                                </div>                
+                                </div>
                             </div>
-                        </div>        
+                        </div>
                     </div><!--/row-->
                 </div>
             </div>
@@ -221,15 +224,15 @@
             <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
-        <!-- JS Global Compulsory -->           
+        <!-- JS Global Compulsory -->
         <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <!-- JS Implementing Plugins -->
         <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
         <!-- JS Customization -->
         <script type="text/javascript" src="assets/js/custom.js"></script>
-        <!-- JS Page Level -->           
+        <!-- JS Page Level -->
         <script type="text/javascript" src="assets/js/app.js"></script>
 
         <script type="text/javascript">
@@ -244,4 +247,4 @@
         <![endif]-->
 
     </body>
-</html> 
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
     <head>
         <title>Unify | Welcome...</title>
 
@@ -27,19 +27,23 @@
 
         <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
 
-        <!-- CSS Theme -->    
+        <!-- CSS Theme -->
         <link rel="stylesheet" href="assets/css/theme-colors/default.css">
         <link rel="stylesheet" href="assets/css/plugins/hover-effect/css/custom-hover-effects.css">
         <link rel="stylesheet" href="assets/css/pages/page_job_inner.css">
 
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
-    </head> 
+    </head>
 
-    <body class="header-fixed">
+    <body>
         <div class="wrapper">
-            <?php include 'pagelet/top_nav.php'; ?>
-            <?php include 'pagelet/main_menu.php'; ?>
+            <!--=== Header ===-->
+            <div class="header">
+                <?php include 'pagelet/top_nav.php'; ?>
+                <?php include 'pagelet/main_menu.php'; ?>
+            </div>
+            <!--=== End Header ===-->
 
             <div class="container content">
                 <div class="row">
@@ -63,12 +67,12 @@
                                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
                                     <a href="tutorial_detail.php" class="btn-u btn-u-red">read more</a>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row blog-page">    
+                <div class="row blog-page">
                     <!-- Left Sidebar -->
                     <div class="col-md-9">
                         <div class="table-search-v2 margin-bottom-50">
@@ -277,7 +281,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>    
+                            </div>
                         </div>
 
 
@@ -292,7 +296,7 @@
                             <dl class="dl-horizontal">
                                 <dt><a href="#"><img src="assets/img/testimonials/user.jpg" alt=""></a></dt>
                                 <dd>
-                                    <p><a href="#">Responsive Bootstrap 3 Template placerat idelo alac eratamet.</a></p> 
+                                    <p><a href="#">Responsive Bootstrap 3 Template placerat idelo alac eratamet.</a></p>
                                 </dd>
                             </dl>
                         </div><!--/posts-->
@@ -302,13 +306,13 @@
                         <div class="headline headline-md"><h2>Description</h2></div>
                         <div class="tab-v2 margin-bottom-40">
                             <div class="tab-content">
-                                <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac ac adipiscing nunc.</p> <p>Pellentesque fermentum, ante ac felis consectetur id. Donec eget orci metusvivamus imperdiet.</p>                        
+                                <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac ac adipiscing nunc.</p><p>Pellentesque fermentum, ante ac felis consectetur id. Donec eget orci metusvivamus imperdiet.</p>
                             </div>
-                        </div>            
+                        </div>
                         <!-- End Tabs Widget -->
                     </div>
                     <!-- End Right Sidebar -->
-                </div><!--/row-->        
+                </div><!--/row-->
 
 
             </div>
@@ -316,15 +320,15 @@
             <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
-        <!-- JS Global Compulsory -->           
+        <!-- JS Global Compulsory -->
         <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <!-- JS Implementing Plugins -->
         <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
         <!-- JS Customization -->
         <script type="text/javascript" src="assets/js/custom.js"></script>
-        <!-- JS Page Level -->           
+        <!-- JS Page Level -->
         <script type="text/javascript" src="assets/js/app.js"></script>
 
         <script type="text/javascript">
@@ -339,4 +343,4 @@
         <![endif]-->
 
     </body>
-</html> 
+</html>

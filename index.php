@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
     <head>
         <title>Unify | Welcome...</title>
 
@@ -28,16 +28,16 @@
 
         <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
 
-        <!-- CSS Theme -->    
+        <!-- CSS Theme -->
         <link rel="stylesheet" href="assets/css/theme-colors/default.css">
         <link rel="stylesheet" href="assets/css/plugins/hover-effect/css/custom-hover-effects.css">
         <link rel="stylesheet" href="assets/css/pages/page_job_inner.css">
 
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
-    </head> 
+    </head>
 
-    <body class="header-fixed">
+    <body>
         <div class="wrapper">
             <?php include 'pagelet/top_nav.php'; ?>
             <?php include 'pagelet/main_menu.php'; ?>
@@ -197,7 +197,7 @@
                         </li>
                         <!-- END SLIDE -->
                     </ul>
-                    <div class="tp-bannertimer tp-bottom"></div>            
+                    <div class="tp-bannertimer tp-bottom"></div>
                 </div>
             </div>
             <!--=== End Slider ===-->
@@ -236,7 +236,7 @@
                                 <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
                                 <button class="btn btn-youtube-inversed rounded">
-                                    <i class="fa fa-bell"></i> YouTube
+                                    <i class="fa fa-bell"></i>YouTube
                                 </button>
                             </div>
                         </div>
@@ -250,7 +250,7 @@
                                 <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
                                 <button class="btn btn-skype-inversed rounded">
-                                    <i class="fa fa-bell"></i> YouTube
+                                    <i class="fa fa-bell"></i>YouTube
                                 </button>
                             </div>
                             <div class="col-md-8">&nbsp;</div>
@@ -265,14 +265,14 @@
                         <?php for ($i = 0; $i < 6; $i++): ?>
                             <div class="col-md-6">
                                 <div class="simple-block">
-                                    <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">       
+                                    <img class="img-responsive img-bordered" src="assets/img/job/high-rated-job-1.3.jpg" alt="">
                                 </div>
                             </div>
                         <?php endfor; ?>
                     </div>
                     <div class="col-md-6">
                         <div class="title-box">
-                            <div class="title-box-text">We <span class="color-green">Do</span> Awesome Design</div>
+                            <div class="title-box-text">We <span class="color-green">Do</span>Awesome Design</div>
                             <p>Creative freedom matters user experience, we minimize the gap between technology and its audience.</p>
                         </div>
                     </div>
@@ -286,7 +286,7 @@
                             <h2>At vero eos et accusamus et iusto odio dignissimos</h2>
                             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus..</p>
                             <button class="btn btn-skype-inversed rounded">
-                                <i class="fa fa-bell"></i> YouTube
+                                <i class="fa fa-bell"></i>YouTube
                             </button>
                         </div>
                         <div class="col-md-8">&nbsp;</div>
@@ -306,7 +306,7 @@
             <div class="bg-grey">
                 <div class="container content job-partners">
                     <div class="title-box-v2">
-                        <h2>Our <span class="color-green">Featured</span> Partners</h2>
+                        <h2>Our <span class="color-green">Featured</span>Partners</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
 
@@ -323,23 +323,23 @@
                         - Or -
                         <a rel="round-corners" class="btn-u btn-u-red round-corners">Login</a>
                     </div>
-                </div>   
+                </div>
             </div>
 
             <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
-        <!-- JS Global Compulsory -->           
+        <!-- JS Global Compulsory -->
         <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <!-- JS Implementing Plugins -->
         <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
         <script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <!-- JS Customization -->
         <script type="text/javascript" src="assets/js/custom.js"></script>
-        <!-- JS Page Level -->           
+        <!-- JS Page Level -->
         <script type="text/javascript" src="assets/js/app.js"></script>
         <script type="text/javascript" src="assets/js/plugins/revolution-slider.js"></script>
 
@@ -356,4 +356,4 @@
         <![endif]-->
 
     </body>
-</html> 
+</html>

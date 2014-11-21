@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
     <head>
         <title>Unify | Welcome...</title>
 
@@ -27,20 +27,23 @@
 
         <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
 
-        <!-- CSS Theme -->    
+        <!-- CSS Theme -->
         <link rel="stylesheet" href="assets/css/theme-colors/default.css">
         <link rel="stylesheet" href="assets/css/plugins/hover-effect/css/custom-hover-effects.css">
         <link rel="stylesheet" href="assets/css/pages/page_job_inner.css">
 
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
-    </head> 
+    </head>
 
-    <body class="header-fixed">
+    <body>
         <div class="wrapper">
-            <?php include 'pagelet/top_nav.php'; ?>
-            <?php include 'pagelet/main_menu.php'; ?>
-
+            <!--=== Header ===-->
+            <div class="header">
+                <?php include 'pagelet/top_nav.php'; ?>
+                <?php include 'pagelet/main_menu.php'; ?>
+            </div>
+            <!--=== End Header ===-->
 
             <div class="breadcrumbs">
                 <div class="container">
@@ -74,10 +77,10 @@
                                 <div class="col-md-8">
                                     <img class="img-responsive" src="assets/img/new/img5.jpg" alt="">
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
-                </div>          
+                </div>
                 <div class="headline-center margin-top-20">
                     <h2>Recent Works</h2>
                     <p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
@@ -94,15 +97,15 @@
             <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
 
-        <!-- JS Global Compulsory -->           
+        <!-- JS Global Compulsory -->
         <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <!-- JS Implementing Plugins -->
         <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
         <!-- JS Customization -->
         <script type="text/javascript" src="assets/js/custom.js"></script>
-        <!-- JS Page Level -->           
+        <!-- JS Page Level -->
         <script type="text/javascript" src="assets/js/app.js"></script>
 
         <script type="text/javascript">
@@ -117,4 +120,4 @@
         <![endif]-->
 
     </body>
-</html> 
+</html>

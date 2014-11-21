@@ -3,7 +3,7 @@
 <!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
 <!--[if !IE]><!--><html lang="en"><!--<![endif]-->
     <head>
-        <title>Unify | Welcome...</title>
+        <title>Unify | Login Page...</title>
 
         <!-- Meta -->
         <meta charset="utf-8">
@@ -21,16 +21,12 @@
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
         <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/plugins/brand-buttons/brand-buttons.css">
-        <link rel="stylesheet" href="assets/css/plugins/brand-buttons/brand-buttons-inversed.css">
-        <link rel="stylesheet" href="assets/css/pages/page_one.css">
 
-        <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+        <!-- CSS Page Style -->
+        <link rel="stylesheet" href="assets/css/pages/page_log_reg_v1.css">
 
         <!-- CSS Theme -->
         <link rel="stylesheet" href="assets/css/theme-colors/default.css">
-        <link rel="stylesheet" href="assets/css/plugins/hover-effect/css/custom-hover-effects.css">
-        <link rel="stylesheet" href="assets/css/pages/page_job_inner.css">
 
         <!-- CSS Customization -->
         <link rel="stylesheet" href="assets/css/custom.css">
@@ -45,20 +41,55 @@
             </div>
             <!--=== End Header ===-->
 
-            <div class="bg-grey">
-                <div class="container content job-partners">
-                    <div class="title-box-v2">
-                        <h2>Our <span class="color-green">Featured</span>Partners</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
+            <!--=== Breadcrumbs ===-->
+            <div class="breadcrumbs">
+                <div class="container">
+                    <h1 class="pull-left">Login</h1>
+                    <ul class="pull-right breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li class="active">Login</li>
+                    </ul>
+                </div><!--/container-->
+            </div><!--/breadcrumbs-->
+            <!--=== End Breadcrumbs ===-->
 
-                    <?php include 'pagelet/software_list.php'; ?>
-                    <?php include 'pagelet/software_list.php'; ?>
-                    <?php include 'pagelet/software_list.php'; ?>
-                    <?php include 'pagelet/software_list.php'; ?>
-                    <?php include 'pagelet/software_list.php'; ?>
-                </div>
-            </div>
+            <!--=== Content Part ===-->
+            <div class="container content">		
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                        <form class="reg-page">
+                            <div class="reg-header">
+                                <h2>Login to your account</h2>
+                            </div>
+
+                            <div class="input-group margin-bottom-20">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" placeholder="Username" class="form-control">
+                            </div>
+                            <div class="input-group margin-bottom-20">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 checkbox">
+                                    <label><input type="checkbox">Stay signed in</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn-u pull-right" type="submit">Login</button>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <h4>Forget your Password ?</h4>
+                            <p>no worries, <a class="color-green" href="#">click here</a> to reset your password.</p>
+                        </form>
+                    </div>
+                </div><!--/row-->
+            </div><!--/container-->		
+            <!--=== End Content Part ===-->
 
             <?php include 'pagelet/footer.php'; ?>
         </div><!--/wrapper-->
@@ -73,7 +104,6 @@
         <script type="text/javascript" src="assets/js/custom.js"></script>
         <!-- JS Page Level -->
         <script type="text/javascript" src="assets/js/app.js"></script>
-
         <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();
