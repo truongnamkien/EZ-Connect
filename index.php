@@ -39,8 +39,12 @@
 
     <body>
         <div class="wrapper">
-            <?php include 'pagelet/top_nav.php'; ?>
-            <?php include 'pagelet/main_menu.php'; ?>
+            <!--=== Header ===-->
+            <div class="header">
+                <?php include 'pagelet/top_nav.php'; ?>
+                <?php include 'pagelet/main_menu.php'; ?>
+            </div>
+            <!--=== End Header ===-->
 
             <!--=== Slider ===-->
             <div class="tp-banner-container">
