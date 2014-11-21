@@ -53,7 +53,6 @@
                 </div>
             </div>
 
-
             <link rel="stylesheet" href="assets/css/pages/portfolio-v1.css">
             <div class="container content">
                 <div class="row">
@@ -80,7 +79,7 @@
                             </div>                            
                         </div>
                     </div>
-                </div>          
+                </div>
 
                 <div class="heading heading-v1 margin-bottom-40">
                     <h2>Vimeo &amp; Youtube Videos</h2>
